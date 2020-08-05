@@ -27,6 +27,7 @@ nav ul{
 }
 nav li{
     display: inline-block;
+    border-radius: 3px;
     padding: 10px 0px;
 }
 nav li a{
@@ -90,7 +91,7 @@ color: aliceblue;
     padding-bottom: 50px;
 }
 #shopnowbutton{
-
+    border-radius: 3px;
     background-color:  #dacae4bb ;
     color: #060111ea ;
     padding: 15px;
@@ -248,6 +249,7 @@ padding: 2% 31%;
 #aboutbutton{
     background-color:  #dacae4bb ;
     color: #060111ea ;
+    border-radius: 3px;
     padding: 10px 20px;
 }
 #shopnowbutton:hover , #aboutbutton:hover{
@@ -358,6 +360,7 @@ footer a{
 .buybutton , .cartbutton{
     padding: 10px;
     border: none;
+    border-radius: 2px;
     margin-top: 10px; 
     background-color: #755b86bb;
     color: white;
@@ -439,7 +442,7 @@ footer a{
 
     background-color:  #88679c8c ;
     color: #060111ea ;
-    
+    border-radius: 3px;
     padding: 15px;
     position: absolute; 
     bottom: 40px;
@@ -518,11 +521,16 @@ footer a{
 #story h2{
     background-color: #dacae4bb; 
     padding-top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
 }
 #storyp{
+    
     border: 2px solid #dacae4bb ;
     padding: 30px 0; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 
 }
@@ -562,10 +570,12 @@ footer a{
     width: 100%;
     padding: 10px; 
     border: 2px solid rgba(31, 12, 49, 0.144);
-    background-color: rgba(31, 12, 49, 0.084);
+    border-radius: 5px;
+    background-color: rgba(31, 12, 49, 0.074);
 }
 #contact input:hover, #contact textarea:hover{
     border: 2px solid rgba(31, 12, 49, 0.300);
+    background-color: rgba(31, 12, 49, 0.114);
 }
 
 
@@ -574,6 +584,7 @@ footer a{
     background-color:  #88679c8c ;
     color: #060111ea ;
     padding: 15px;
+    border-radius: 3px;
     width: 20%;
 
 }
@@ -639,10 +650,12 @@ footer a{
     width: 55%;
     border-radius: 30px;
     border: 2px solid rgba(218, 202, 228, 0.933)  ;
-}
+    background-color: rgba(31, 12, 49, 0.060);  
+}  
 
 .loginrow input:hover{
     border: 2px solid rgba(77, 72, 80, 0.433) ; 
+    background-color: rgba(31, 12, 49, 0.110);
 }
 
 #logbutton{
