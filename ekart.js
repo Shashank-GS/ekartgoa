@@ -46,7 +46,7 @@ function myCart(elem) {
   }
 
 function funcbuy() {
-   alert("Buy Successful, Please wait till the  bill loads.. \nThanks for Shopping");
+   confirm("Buy Successful, Please wait till the  bill loads.. \nThanks for Shopping");
 }
 
 

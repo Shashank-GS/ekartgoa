@@ -31,17 +31,29 @@ nav li{
     padding: 10px 0px;
 }
 nav li a{
-    padding: 10px 40px;
+   
+    padding: 10px 30px;
     font-size: 18px;
 }
-#current,  nav li:hover {
+#current,  nav li:hover , #ecart:hover{
    
    background-color: #dacae4bb;
 }
+#ecart a{
+    /* margin-left: 2px; */
+    padding: 10px 10px;
+}
+#ecart{
+    background-color: #dacae470  ; 
+    border-radius: 50px; 
+    margin-left: 10px;
+    /* padding: 10px 20px; */
+}
+
 #current a{
     color: #060111ea;
 }
-nav li:hover a{
+nav li:hover a, #ecart:hover a{
      color: #060111ea;
 }
 #branding{
@@ -674,5 +686,8 @@ footer a{
     color:  white;
     background-color:  #060111ea  ;
 }
+
+
+
 
 
