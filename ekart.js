@@ -56,4 +56,9 @@ function funclogin(){
 }
 
 
+function funcContact(){
+  var x=document.getElementById("contactuser").value ;
+  alert(x+" , Thanks for your suggestions. We will really try to improve on it.. Keep Shopping on Ekart");
+}
+
  
