@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKART| Home</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css1.css"> 
+    <script src="ekart.js"></script> 
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="branding"><span id="brand">E</span>KART</h1>
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="current" id="login"><a href="login.html">LOG IN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="" method="" id="formcontent">
+
+  <div  id="contentlogin">
+    <img src="imageson/pic.jpg" alt="Avatar" id="avatar">
+    <div class="loginrow">
+
+        <label for="uname"><b>Username</b></label> <br>
+    <input id="user"  type="text" placeholder="Enter Username" name="uname" required>
+    </div>
+    <div class="loginrow">
+    <label  for="psw"><b>Password</b></label> <br> 
+    <input type="password" placeholder="Enter Password" name="psw" required>
+</div>  
+<div class="loginrow">
+    <a onclick="funclogin()" id="logbutton" href="index.html">Login</a>
+</div>
+<div class="loginrow">
+    <a id="logbutton" href="#">Sign Up</a>
+</div>
+    <!-- <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label> -->
+  </div>
+
+  <!-- <div class="forgotpw" >
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div> -->
+</form>

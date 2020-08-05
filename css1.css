@@ -250,7 +250,7 @@ padding: 2% 31%;
     color: #060111ea ;
     padding: 10px 20px;
 }
-#shopnowbutton:hover , #aboutbutton:hover, #buyitbutton:hover{
+#shopnowbutton:hover , #aboutbutton:hover{
     background-color: #060111ea;
 
     color: #dacae4bb ;
@@ -393,7 +393,7 @@ footer a{
     grid-template-columns: 1fr 1fr;
     
 }
-#cartcontent #cartitem li, #cartcontent #cartprice li , #cartcontent #totitem, #cartcontent #totamt{
+#cartcontent #cartitem li, #cartcontent #cartprice li {
     display: block;
     border-bottom: 2px solid rgba(6, 1, 17, 0.118);
     height: 60px;
@@ -420,10 +420,26 @@ footer a{
     /* padding: 0 60px; */
 }
 
+#cartcontent #totitem, #cartcontent #totamt{
+    border: 2px solid  rgba(6, 1, 17, 0.118) ;
+    padding: 15px 30px 0 30px; 
+    height: 60px; 
+    margin: 10px 15%  ;
+    background-color: rgba(6, 1, 17, 0.084) ;
+    font-weight: 600;
+}
+#cartcontent #totitem:hover , #cartcontent #totamt:hover {
+
+    
+    border: 2px solid  rgba(6, 1, 17, 0.158) ;
+    
+
+}
 #buyitbutton{
 
-    background-color:  #dacae4bb ;
+    background-color:  #88679c8c ;
     color: #060111ea ;
+    
     padding: 15px;
     position: absolute; 
     bottom: 40px;
@@ -431,6 +447,11 @@ footer a{
 
     
 
+}
+#buyitbutton:hover{
+    font-weight: 700  ;
+    color:  white;
+    background-color:  #060111ea  ;
 }
 
 #cartcontent #cartitem li:hover , #cartcontent #cartprice li:hover {
@@ -520,6 +541,7 @@ footer a{
 /* contact page css */
 
 
+
 #contact{
     /* width: 80%; */
     margin: 0 50% 0 10% ;
@@ -546,10 +568,98 @@ footer a{
     border: 2px solid rgba(31, 12, 49, 0.300);
 }
 
+
+#contactbutton{
+
+    background-color:  #88679c8c ;
+    color: #060111ea ;
+    padding: 15px;
+    width: 20%;
+
+}
+
+#contactbutton:hover{
+    font-weight: 700  ;
+    color:  white;
+    background-color:  #060111ea  ;
+}
+
+
 #contact form{
     padding: 10px ; 
 }
 
 
+
+
+/* The Login page CSS */
+
+#avatar{
+    border-radius: 50%;
+    height: 200px;
+    /* border: 2px solid  rgba(77, 72, 80, 0.733) ; */
+    margin-bottom: 20px;
+    
+}
+
+#formcontent{
+
+    text-align: center; 
+    padding-top: 150px;
+    width: 40%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+#contentlogin{
+    margin-bottom: 50px;
+    padding: 50px 0 0 0 ;
+    border: 2px solid #dacae4bb;
+
+
+}
+
+#contentlogin:hover{
+    border: 2px solid rgba(77, 72, 80, 0.300) ; 
+}
+
+.loginrow{
+    margin-top: 15px;
+    min-height: 50px ;
+   
+}
+.loginrow label{
+    color: rgba(6, 1, 17, 0.950); 
+
+}
+.loginrow input{
+    padding: 10px 5px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 55%;
+    border-radius: 30px;
+    border: 2px solid rgba(218, 202, 228, 0.933)  ;
+}
+
+.loginrow input:hover{
+    border: 2px solid rgba(77, 72, 80, 0.433) ; 
+}
+
+#logbutton{
+
+    background-color:#88679c8c ;
+    color: #060111ea ;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    
+    padding: 15px 50px;
+
+}
+
+#logbutton:hover{
+    font-weight: 700  ;
+    color:  white;
+    background-color:  #060111ea  ;
+}
 
 
