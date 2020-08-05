@@ -393,7 +393,7 @@ footer a{
     grid-template-columns: 1fr 1fr;
     
 }
-#cartcontent #cartitem li, #cartcontent #cartprice li{
+#cartcontent #cartitem li, #cartcontent #cartprice li , #cartcontent #totitem, #cartcontent #totamt{
     display: block;
     border-bottom: 2px solid rgba(6, 1, 17, 0.118);
     height: 60px;
